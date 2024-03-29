@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selectors</title>
+<style>
+  /* Targeting element by tag name */
+  p {
+    color: red;
+  }
+
+  /* Targeting element by class */
+  .highlight {
+    color:magenta;
+  }
+
+  /* Targeting element by ID */
+  #special {
+    color:green;
+  }
+
+  /* Targeting elements with attribute */
+  a[href="https://www.example.com"] {
+    color: blue;
+  }
+
+  /* Combining selectors */
+  p.highlight {
+    color:purple;
+  }
+</style>
+</head>
+<body>
+<i><h1>CSS Selectors</h1></i>
+<h2>Applying CSS to Different Parts of HTML</h2>
+<p>This is a paragraph targeted by tag name.</p>
+<ol>
+<li>The element selector targets elements based on theit HTML tag name</li>
+<li><p class="highlight">Class selector target elements based on the value of the class attribute.</p></li>
+<li><p id="special">ID selectors target elements based on the value of the id attribute</p></li>
+<li><a href="https://www.example.com">Attribute selector target elements based on the their attributes and values.</a></li>
+<li><p class="highlight">The universal selector targets all elements.</p></li>
+</ol>
+</body>
+</html>
